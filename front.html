@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+  <title>Evernote</title>
+  <link rel="shortcut icon" type="1/png" href="images/2.png" />
+  <style>
+    .meet {
+      /* background-color: aqua;
+        border: 6px solid red; */
+      padding: 15px;
+      margin: 12px;
+    }
+
+    .font {
+      font-size: 64px;
+    }
+
+    .font1 {
+      text-align: center;
+    }
+    .btn{
+      border: 2px solid black;
+      padding: 6px 17px;
+      border-radius: 5px;
+      
+    }
+    .mr-5{
+     background-color:  rgb(255 255 255);
+    }
+
+  </style>
+</head>
+
+<body>
+  <header class="text-gray-600 body-font">
+    <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+      <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+        <img src="images/3.png" >
+        <!-- <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-
+          linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-green-500 rounded-full"
+          viewBox="0 0 24 24">
+          <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+        </svg> -->
+        <!-- <span class="ml-3 text-xl">Evernote</span> -->
+      </a>
+      <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center 
+          text-base justify-center">
+        
+        <button class="mr-5 hover:text-gray-900">Explore</button>
+        <button class="mr-5 hover:text-gray-900">Web Clipper</button>
+        <button class="mr-5 hover:text-gray-900">Download App</button>
+
+      </nav>
+      <button class="mr-5 hover:text-gray-900">Login</button>
+      <button type="button" class="btn btn-outline-dark">Try Evernote Business</button>
+      <!-- <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
+            class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </button> -->
+    </div>
+  </header>
+  <hr>
+
+
+  <section class="text-gray-600 body-font">
+    <div class="container px-5 py-24 mx-auto flex flex-wrap items-center">
+      <div class="meet">
+        <h1 style="color:black">
+          <div class="font">Meet Evernote, <br> your second <br> brain.</div>
+        </h1>
+
+        <p class="leading-relaxed mt-4">Capture, organize, and share notes from anywhere. Your <br> best ideas are
+          always with you and always in sync.
+        </p>
+      </div>
+      <div class="lg:w-2/6 md:w-1/2 bg-gray-100 rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0">
+        <h2 style="color:rgb(51, 51, 53);  " class="font1"> Sign in: </h2>
+        <div class="relative mb-4">
+          <label for="full-name" class="leading-7 text-sm text-gray-600">Email</label>
+          <input type="text" id="email" name="email" class="w-full bg-white rounded border border-gray-300 
+              focus:border-green-500 focus:ring-2 focus:ring-green-200 text-base outline-none text-gray-700 py-1 px-3 
+              leading-8 transition-colors duration-200 ease-in-out">
+        </div>
+        <div class="relative mb-4">
+          <label for="password" class="leading-7 text-sm text-gray-600">Pasword</label>
+          <input type="password" id="Pasword" name="Pasword" class="w-full bg-white rounded border border-gray-300 focus:
+              border
+              -green-500 focus:ring-2 focus:ring-green-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 
+              transition
+              -colors duration-200 ease-in-out">
+          <p class="text-xs text-gray-500 mt-3">By signing up I agree to <b>Terms of Service</b> and <b>Privacy
+              Policy</b> .</p>
+        </div>
+        <button class="text-white bg-green-500 border-0 py-2 px-8 focus:outline-none hover:bg-green-600 rounded 
+            text-lg">
+          Sign up for free</button>
+
+      </div>
+    </div>
+  </section>
+
+</body>
+
+</html>
