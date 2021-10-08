@@ -29,15 +29,18 @@
     .font1 {
       text-align: center;
     }
-    .btn{
+
+    .btn {
       border: 2px solid black;
       padding: 6px 17px;
       border-radius: 5px;
-      
+
     }
-    .mr-5{
-     background-color:  rgb(255 255 255);
+
+    .mr-5 {
+      background-color: rgb(255 255 255);
     }
+
     /* .lg{
       background-color: white;
     } */
@@ -45,7 +48,22 @@
       --tw-bg-opacity: 1;
       background-color: white;
     } */
+    .me {
+      width: 100%;
+    }
 
+    input[type=text] {
+      width: 100%;
+      padding: 6px 20px;
+      margin: 8px 0;
+      box-sizing: border-box;
+    }
+    input[type=Password] {
+      width: 100%;
+      padding: 6px 20px;
+      margin: 8px 0;
+      box-sizing: border-box;
+    }
   </style>
 </head>
 
@@ -53,7 +71,7 @@
   <header class="text-gray-600 body-font">
     <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
       <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-        <img src="images/3.png" >
+        <img src="images/3.png">
         <!-- <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-
           linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-green-500 rounded-full"
           viewBox="0 0 24 24">
@@ -63,7 +81,7 @@
       </a>
       <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center 
           text-base justify-center">
-        
+
         <button class="mr-5 hover:text-gray-900">Explore</button>
         <button class="mr-5 hover:text-gray-900">Web Clipper</button>
         <button class="mr-5 hover:text-gray-900">Download App</button>
@@ -95,7 +113,7 @@
 
 
       <div class="lg:w-2/6 md:w-1/2 bg-gray-100 rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0">
-        <h2 style="color:rgb(51, 51, 53);  " class="font1"> Sign in: </h2>
+        <!-- <h2 style="color:rgb(51, 51, 53);  " class="font1"> Sign in: </h2>
         <div class="relative mb-4">
           <label for="full-name" class="leading-7 text-sm text-gray-600">Email</label>
           <input type="text" id="email" name="email" class="w-full bg-white rounded border border-gray-300 
@@ -111,7 +129,24 @@
               -colors duration-200 ease-in-out">
           <p class="text-xs text-gray-500 mt-3">By signing up I agree to <b>Terms of Service</b> and <b>Privacy
               Policy</b> .</p>
+        </div> -->
+
+         <div class="txt">
+           <p style="text-align: center;"> Sign in</p>
+         </div>
+
+        <div>
+          Email:
+          <input type="text">
+          <br>
+          Password:
+          <input type="Password">
         </div>
+
+        
+          <p class="text-xs text-gray-500 mt-3">By signing up I agree to <b>Terms of Service</b> and <b>Privacy
+              Policy</b> .</p>
+              <br>
         <button class="text-white bg-green-500 border-0 py-2 px-8 focus:outline-none hover:bg-green-600 rounded 
             text-lg">
           Sign up for free</button>
